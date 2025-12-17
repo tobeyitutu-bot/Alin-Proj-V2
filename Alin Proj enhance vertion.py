@@ -5,6 +5,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image, ImageFilter
@@ -146,3 +148,4 @@ with team_tab:
     """)
 
     st.info("This project is designed for Industrial Engineering students as an educational web application.")
+
