@@ -55,7 +55,7 @@ st.markdown(T["desc"])
 # =====================
 # Tabs
 # =====================
-mat_tab, img_tab, team_tab = st.tabs([T["matrix_tab"], T["image_tab"], T["team_tab"])
+mat_tab, img_tab, team_tab = st.tabs([T["matrix_tab"], T["image_tab"], T["team_tab"]])
 
 # =====================
 # MATRIX TAB (simplified reuse)
@@ -146,3 +146,4 @@ with team_tab:
     """)
 
     st.info("This project is designed for Industrial Engineering students as an educational web application.")
+
